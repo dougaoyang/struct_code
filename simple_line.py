@@ -112,21 +112,22 @@ class SimpleLine:
         return count
 
 
-sl = SimpleLine()
+if __name__ == '__main__':
+    sl = SimpleLine()
 
-sl.append(0)
-sl.append(1)
-sl.append(2)
-print(list(sl.travel()))
+    sl.append(0)
+    sl.append(1)
+    sl.append(2)
+    print(list(sl.travel()))
 
-sl.insert(3, 111)
-sl.insert(3, 222)
-print(list(sl.travel()))
+    sl.insert(3, 111)
+    sl.insert(3, 222)
+    print(list(sl.travel()))
 
-print(sl.getElem(2))
+    print(sl.getElem(2))
 
-print(sl.locateElem(222))
+    print(sl.locateElem(222))
 
-sl.delete(4)
-print(list(sl.travel()))
+    sl.delete(4)
+    print(list(sl.travel()))
 
