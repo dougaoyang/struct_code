@@ -18,6 +18,9 @@ class SimpleLine:
     def get_head(self):
         return self._head.next
 
+    def length(self):
+        return self._length
+
     def append(self, elem):
         node = Node(elem)
 
