@@ -1,4 +1,4 @@
-from bi_tree import BiTree, BiNode
+from btree import BiTree, BiNode
 
 
 class IntBiTree(BiTree):

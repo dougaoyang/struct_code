@@ -1,4 +1,4 @@
-from simple_line_sentinel import SimpleLine
+from line.simple_line_sentinel import SimpleLine
 
 
 class LineQueue:

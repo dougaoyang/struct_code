@@ -1,4 +1,4 @@
-from simple_line_sentinel import SimpleLine
+from line.simple_line_sentinel import SimpleLine
 
 def check_loop_str(s):
     """使用链表判断回文字符串"""
