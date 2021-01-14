@@ -1,6 +1,6 @@
 # 插入排序
 
-def insert_search(arr):
+def insert_sort(arr):
     l = len(arr)
     for i in range(1, l):
         val = arr[i]
@@ -19,6 +19,6 @@ def insert_search(arr):
 
 if __name__ == '__main__':
     arr = [10, 14, 6, 8, 32, 7, 3]
-    print(insert_search(arr))
+    print(insert_sort(arr))
 
 

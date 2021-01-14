@@ -1,6 +1,6 @@
 # 冒泡排序
 
-def bubble_search(arr):
+def bubble_sort(arr):
     l = len(arr)
     for i in range(l):
         flag = 0 # 判断一轮中有没有比较过
@@ -13,8 +13,5 @@ def bubble_search(arr):
 
 
 if __name__ == '__main__':
-    arr = [2, 14, 10, 8, 32, 7, 3]
-    print(bubble_search(arr))
-
-    arr = [2, 3, 7, 8, 10, 32, 14]
-    print(bubble_search(arr))
+    arr = [10, 14, 6, 8, 32, 7, 3]
+    print(bubble_sort(arr))
