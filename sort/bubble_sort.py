@@ -9,9 +9,10 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 flag = 1  # 表示有数据交换
         if not flag: break
-    return arr
 
 
 if __name__ == '__main__':
     arr = [10, 14, 6, 8, 32, 7, 3]
-    print(bubble_sort(arr))
+    print(arr)
+    bubble_sort(arr)
+    print(arr)

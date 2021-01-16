@@ -29,5 +29,6 @@ def merge_sort(arr, start=0, end=None):
 
 if __name__ == '__main__':
     arr = [10, 14, 6, 8, 32, 7, 3]
+    print(arr)
     print(merge_sort(arr))
 

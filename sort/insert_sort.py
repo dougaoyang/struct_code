@@ -14,11 +14,12 @@ def insert_sort(arr):
             else:
                 break
         arr[j+1] = val
-    return arr
 
 
 if __name__ == '__main__':
     arr = [10, 14, 6, 8, 32, 7, 3]
-    print(insert_sort(arr))
+    print(arr)
+    insert_sort(arr)
+    print(arr)
 
 

@@ -11,5 +11,7 @@ def select_sort(arr):
 
 if __name__ == '__main__':
     arr = [10, 14, 6, 8, 32, 7, 3]
-    print(select_sort(arr))
+    print(arr)
+    select_sort(arr)
+    print(arr)
 
